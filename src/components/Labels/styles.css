@@ -1,0 +1,22 @@
+.data-people {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    margin-bottom: 15px;
+}
+
+.data-people label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.data-people input {
+    border: 1px solid ;
+    border-radius: 5px;
+    height: 26px;
+    padding: 0 10px;
+
+}
+
