@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
-import './styles.css'
 
-export function Countries() {
+export function useCountries() {
     const [countries, setCountries] = useState([])
 
     useEffect(() => {

@@ -1,0 +1,42 @@
+.form {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.information > div{
+  padding-inline: 50px;
+  border: solid darkgrey 1px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.information p {
+  font-size: large;
+}
+
+/* select */
+
+.select > div {
+  margin-bottom: 10px;
+
+}
+
+button {
+  align-self: center;
+  margin-top: 20px;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+
+  background-color: royalblue;
+  color: #fff;
+}

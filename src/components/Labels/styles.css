@@ -1,7 +1,6 @@
 .data-people {
     display: flex;
     flex-direction: column;
-    background-color: azure;
     margin-bottom: 15px;
 }
 
