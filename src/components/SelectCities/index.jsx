@@ -1,7 +1,7 @@
 import { useCities } from "../../hooks/useCities"
 import Select from "react-select"
 
-export function SelectCities() {
+export const SelectCities = ({ valuesCity, value }) => {
     const { cities } = useCities()
 
     const CitiesOptions = cities.map((city) => ({
@@ -14,10 +14,11 @@ export function SelectCities() {
             placeholder="Escolha as cidades..."
             isMulti
             name="cities"
+            value={value}
             options={CitiesOptions}
             className="basic-multi-select"
             classNamePrefix="select"
-            // onChange={(newValue, actionMEta) => console.log(newValue, actionMEta)}
+            onChange={(newValue) => valuesCity(newValue)}
         />
     )
 }
