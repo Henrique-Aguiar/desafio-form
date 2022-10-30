@@ -1,10 +1,10 @@
 .form {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 60px;
   display: flex;
   flex-direction: column;
   background-color: azure;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px;
 }
 
 .information {
@@ -23,11 +23,8 @@
   font-size: large;
 }
 
-/* select */
-
 .select > div {
   margin-bottom: 10px;
-
 }
 
 button {

@@ -53,8 +53,6 @@ function Form() {
 
     const saveDataForm = true
 
-    console.log(data)
-
     if(saveDataForm) {
       setStatus({
         type: 'success',
